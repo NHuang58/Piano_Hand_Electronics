@@ -1,5 +1,6 @@
 import machine
 import time
+from stepper import *
 
 finger_distances = [0, 0, 0, 0, 0] #FIX TO FIND THE DISTANCE BETWEEN FINGERS (NOT CONSTANT)
 
