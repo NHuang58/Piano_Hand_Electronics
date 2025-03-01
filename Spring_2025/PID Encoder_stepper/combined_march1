@@ -1,0 +1,76 @@
+from machine import Pin, PWM, Timer
+import time
+import json
+
+# Pin Definitions
+CLK_PIN = 25
+DT_PIN = 26
+DIR_PIN = 2
+STEP_PIN = 15
+FINGER_PINS = [16, 17, 18, 19, 22]
+
+# Constants
+STEPS_PER_REV = 600
+P_GAIN = 2  # Proportional gain for stepper motor
+SERVO_P_GAIN = 1  # Proportional gain for servo speed control
+MAX_STEP_SPEED = 5000  # Max PWM frequency for stepper motor
+
+# Initialize Pins
+clk = Pin(CLK_PIN, Pin.IN, Pin.PULL_UP)
+dt = Pin(DT_PIN, Pin.IN, Pin.PULL_UP)
+dir_pin = Pin(DIR_PIN, Pin.OUT)
+step_pin_pwm = PWM(Pin(STEP_PIN), freq=50)
+fingers = [PWM(Pin(pin), freq=50) for pin in FINGER_PINS]
+
+# Load song data
+with open("config.json") as f:
+    songData = json.load(f)
+
+# Rotary Encoder Variables
+counter = 0
+prev_CLK_state = clk.value()
+
+# Function to set servo angle gradually
+def set_servo_angle(servo, current_angle, target_angle):
+    error = target_angle - current_angle
+    step = SERVO_P_GAIN * error  # Proportional speed control
+    new_angle = current_angle + step
+    duty_cycle = int((new_angle / 180) * 216)
+    servo.duty_u16(duty_cycle)
+    return new_angle
+
+# Function to move stepper motor with speed proportional to error
+def move_stepper_motor(target_steps):
+    global counter
+    error = target_steps - counter
+    step_speed = min(abs(P_GAIN * error), MAX_STEP_SPEED)  # Adjust speed based on error
+    step_pin_pwm.freq(step_speed)
+    dir_pin.value(1 if error > 0 else 0)
+    step_pin_pwm.duty_u16(216 if error != 0 else 0)  # Move if error exists
+    time.sleep(abs(error) * 0.001)
+    step_pin_pwm.duty_u16(0)
+
+# Function to update hand and fingers
+def check_hand_pos(timer):
+    current_data = songData.get(counter % len(songData), {})
+    hand_position = current_data.get("handPosition", 0)
+    move_stepper_motor(hand_position)
+    
+    finger_states = ["thumb", "index", "middle", "ring", "pinky"]
+    for i, finger in enumerate(finger_states):
+        if i < len(fingers):
+            target_angle = 90 if current_data.get(finger, "up") == "down" else 0
+            current_angle = 0  # Assume starting at 0 (could be tracked separately)
+            set_servo_angle(fingers[i], current_angle, target_angle)
+
+# Timer to run periodically
+check_hand_timer = Timer(1)
+check_hand_timer.init(period=100, mode=Timer.PERIODIC, callback=check_hand_pos)
+
+# Rotary encoder tracking
+while True:
+    CLK_state = clk.value()
+    if CLK_state != prev_CLK_state:
+        counter += 1 if dt.value() == 0 else -1
+        prev_CLK_state = CLK_state
+    time.sleep_ms(10)
