@@ -3837,6 +3837,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Barrel_Jack")
+		(at 185.42 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0bd3fb20-892c-4ad7-aa28-9741843c53cc")
+		(property "Reference" "J1"
+			(at 185.42 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Barrel_Jack"
+			(at 185.42 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_SwitchcraftConxall_RAPC10U_Horizontal"
+			(at 186.69 49.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 49.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Barrel Jack"
+			(at 185.42 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79a489c4-1f47-4318-8e85-421b44d2f58f")
+		)
+		(pin "2"
+			(uuid "1c619c1d-be73-4645-8956-167ad8a8f9ba")
+		)
+		(instances
+			(project ""
+				(path "/ab2041eb-320e-4b4d-9636-e8f50e038a2e"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Library:ESP32-DEVKITC-32UE")
 		(at 58.42 72.39 0)
 		(unit 1)
@@ -4401,74 +4469,6 @@
 			(project ""
 				(path "/ab2041eb-320e-4b4d-9636-e8f50e038a2e"
 					(reference "#FLG4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Barrel_Jack")
-		(at 185.42 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "33cb5e5f-5d64-42df-8ceb-b6aeabd927e2")
-		(property "Reference" "J1"
-			(at 185.42 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Barrel_Jack"
-			(at 185.42 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_BarrelJack:BarrelJack_SwitchcraftConxall_RAPC10U_Horizontal"
-			(at 186.69 49.276 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 186.69 49.276 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Barrel Jack"
-			(at 185.42 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4138d445-a290-4a23-811f-212d3c9f969a")
-		)
-		(pin "1"
-			(uuid "44aa0c51-e029-47cc-9638-d7dca2391542")
-		)
-		(instances
-			(project ""
-				(path "/ab2041eb-320e-4b4d-9636-e8f50e038a2e"
-					(reference "J1")
 					(unit 1)
 				)
 			)
