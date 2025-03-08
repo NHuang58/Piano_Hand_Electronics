@@ -28,7 +28,7 @@
 			)
 		)
 		(property "Footprint" "ESP32-DEVKITC-32UE:ESPRESSIF_ESP32-DEVKITC-32UE"
-			(at 0 0 0)
+			(at -0.254 45.212 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66,7 +66,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" "ESP32-DEVKITC-32UE"
-			(at 0 0 0)
+			(at 0.254 50.292 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -76,7 +76,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Espressif"
-			(at 0 0 0)
+			(at 0.254 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -86,7 +86,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "N/A"
-			(at 0 0 0)
+			(at -0.508 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -96,7 +96,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 0 0 0)
+			(at 0.508 -46.736 0)
 			(effects
 				(font
 					(size 1.27 1.27)
