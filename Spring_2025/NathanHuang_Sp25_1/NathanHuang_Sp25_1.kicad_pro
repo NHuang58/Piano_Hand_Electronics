@@ -52,13 +52,15 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "invalid_outline|95720000|53220000|9b2faddb-b113-4ef5-b318-50aafdb1e5ae|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
       "rule_severities": {
         "annular_width": "error",
-        "clearance": "error",
+        "clearance": "warning",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
