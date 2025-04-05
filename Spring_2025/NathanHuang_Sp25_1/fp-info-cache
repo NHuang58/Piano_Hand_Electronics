@@ -1,4 +1,4 @@
-24697832585663937
+24697833188818048
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -65823,10 +65823,10 @@ ESP32-DEVKITC-32UE
 Library
 ESP32-WROOM-32
 
-ESP32-WROOM-32 8MB 
+
 0
-47
-47
+30
+30
 Library
 LM2596_BUCK_CONVERTER
 
