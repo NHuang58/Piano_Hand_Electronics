@@ -1673,7 +1673,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal"
+			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 				(at 1.778 -8.128 0)
 				(effects
 					(font
@@ -1715,7 +1715,7 @@
 				(pin bidirectional line
 					(at 2.54 3.81 0)
 					(length 2.54)
-					(name "DT"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1733,7 +1733,7 @@
 				(pin bidirectional line
 					(at 2.54 1.27 0)
 					(length 2.54)
-					(name "CW"
+					(name "VCC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1751,7 +1751,7 @@
 				(pin bidirectional line
 					(at 2.54 -1.27 0)
 					(length 2.54)
-					(name "VCC"
+					(name "CW"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1769,7 +1769,7 @@
 				(pin bidirectional line
 					(at 2.54 -3.81 0)
 					(length 2.54)
-					(name "GND"
+					(name "DT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3409,7 +3409,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 148.59) (xy 184.15 148.59)
+			(xy 186.69 140.97) (xy 184.15 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3439,7 +3439,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 146.05) (xy 184.15 146.05)
+			(xy 186.69 143.51) (xy 184.15 143.51)
 		)
 		(stroke
 			(width 0)
@@ -3709,7 +3709,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 140.97) (xy 186.69 140.97)
+			(xy 180.34 148.59) (xy 186.69 148.59)
 		)
 		(stroke
 			(width 0)
@@ -3719,7 +3719,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 143.51) (xy 186.69 143.51)
+			(xy 180.34 146.05) (xy 186.69 146.05)
 		)
 		(stroke
 			(width 0)
@@ -3912,7 +3912,7 @@
 		)
 		(uuid "fc0fb8f9-a5dd-4e5f-97da-5fdc7e93285a")
 	)
-	(label "MIDDLE"
+	(label "THUMB_2"
 		(at 120.65 54.61 180)
 		(effects
 			(font
@@ -3942,7 +3942,7 @@
 		)
 		(uuid "3d05cf1c-c462-45a5-9a81-8bf8e71bec54")
 	)
-	(label "RING"
+	(label "INDEX"
 		(at 120.65 66.04 180)
 		(effects
 			(font
@@ -3963,7 +3963,7 @@
 		(uuid "4983f2d5-4d5d-4ccc-8a41-5720cb5c67c4")
 	)
 	(label "CW"
-		(at 180.34 143.51 180)
+		(at 180.34 146.05 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3972,7 +3972,7 @@
 		)
 		(uuid "4a98842f-0fc0-4324-ab9f-45780b1a079a")
 	)
-	(label "THUMB_2"
+	(label "PINKY"
 		(at 120.65 100.33 180)
 		(effects
 			(font
@@ -3982,7 +3982,7 @@
 		)
 		(uuid "549d536b-6f3b-41b5-ba13-bf91a51b72a1")
 	)
-	(label "INDEX"
+	(label "THUMB_1"
 		(at 120.65 43.18 180)
 		(effects
 			(font
@@ -4042,7 +4042,7 @@
 		)
 		(uuid "acdeb652-930d-4ace-8070-858d244355e0")
 	)
-	(label "PINKIE"
+	(label "MIDDLE"
 		(at 120.65 77.47 180)
 		(effects
 			(font
@@ -4062,7 +4062,7 @@
 		)
 		(uuid "b59b0cfe-3216-44ed-afcf-487342d6c8f9")
 	)
-	(label "THUMB_1"
+	(label "RING"
 		(at 120.65 88.9 180)
 		(effects
 			(font
@@ -4103,7 +4103,7 @@
 		(uuid "da39bb09-aa5a-484b-9074-5b4e19e55cce")
 	)
 	(label "DT"
-		(at 180.34 140.97 180)
+		(at 180.34 148.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4732,7 +4732,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 157.734 143.256 0)
 			(effects
 				(font
@@ -5938,7 +5938,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 184.15 148.59 270)
+		(at 184.15 140.97 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5947,7 +5948,7 @@
 		(fields_autoplaced yes)
 		(uuid "6635cc3c-7662-4515-9769-022b1931228b")
 		(property "Reference" "#PWR27"
-			(at 177.8 148.59 0)
+			(at 177.8 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5956,7 +5957,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 180.34 148.5899 90)
+			(at 180.34 140.9701 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5965,7 +5966,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 148.59 0)
+			(at 184.15 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5974,7 +5975,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 148.59 0)
+			(at 184.15 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5983,7 +5984,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 184.15 148.59 0)
+			(at 184.15 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6536,7 +6537,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "fa5ea6ff-7eb2-4e1f-a17e-762108ceb1ec")
+			(uuid "fa5ea6ff-7eb2-4e1f-a17e-762108ceb1ed")
 		)
 		(instances
 			(project ""
@@ -6549,7 +6550,8 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 184.15 146.05 90)
+		(at 184.15 143.51 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6558,7 +6560,7 @@
 		(fields_autoplaced yes)
 		(uuid "7ddd3d10-3464-4192-bc14-a9c6a71b89dc")
 		(property "Reference" "#PWR26"
-			(at 187.96 146.05 0)
+			(at 187.96 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6567,7 +6569,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 180.34 146.0499 90)
+			(at 180.34 143.5101 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6576,7 +6578,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 146.05 0)
+			(at 184.15 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6585,7 +6587,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 146.05 0)
+			(at 184.15 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6594,7 +6596,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 184.15 146.05 0)
+			(at 184.15 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6817,7 +6819,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 195.58 116.84 0)
+		(at 195.58 118.11 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -6826,7 +6828,7 @@
 		(fields_autoplaced yes)
 		(uuid "89c6a991-73d3-4db6-bd05-9208a3e5f9b4")
 		(property "Reference" "H4"
-			(at 198.12 115.5699 0)
+			(at 198.12 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6835,7 +6837,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 198.12 118.1099 0)
+			(at 198.12 119.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6844,7 +6846,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5"
-			(at 195.58 116.84 0)
+			(at 195.58 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6853,7 +6855,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 195.58 116.84 0)
+			(at 195.58 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6862,7 +6864,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 195.58 116.84 0)
+			(at 195.58 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7630,12 +7632,13 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:ESP32-WROOM-32"
 			(at 60.96 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -8077,7 +8080,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "4e74a0ce-a0ef-4334-a225-647e9697b459")
+			(uuid "4e74a0ce-a0ef-4334-a225-647e9697b45a")
 		)
 		(instances
 			(project ""
