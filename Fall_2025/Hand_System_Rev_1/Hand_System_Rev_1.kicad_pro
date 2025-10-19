@@ -246,8 +246,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "PCB_Components"
+    ],
+    "pinned_symbol_libs": [
+      "Schematic"
+    ]
   },
   "meta": {
     "filename": "Hand_System_Rev_1.kicad_pro",
