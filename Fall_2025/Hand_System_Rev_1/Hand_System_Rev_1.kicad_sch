@@ -3631,10 +3631,6 @@
 		(uuid "4f281e69-9eea-441e-ba0a-33d695e1df37")
 	)
 	(no_connect
-		(at 35.56 68.58)
-		(uuid "56ea6624-78f3-47d1-83a0-0285469b0b38")
-	)
-	(no_connect
 		(at 35.56 91.44)
 		(uuid "68e02b80-9804-44ae-b651-c54195ad4648")
 	)
@@ -4182,7 +4178,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 106.68) (xy 180.34 109.22)
+			(xy 180.34 102.87) (xy 180.34 109.22)
 		)
 		(stroke
 			(width 0)
@@ -10243,6 +10239,16 @@
 		)
 		(uuid "490e7c15-9e65-4986-86f2-4f4e8d03aae1")
 	)
+	(label "STEPPER_VG"
+		(at 35.56 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4e743be2-2d83-40c9-9baf-863f0cdffd7b")
+	)
 	(label "RING_2"
 		(at 68.58 71.12 0)
 		(effects
@@ -10473,6 +10479,16 @@
 		)
 		(uuid "f788ad1a-a077-4f67-86bc-ad4c33b6c9bd")
 	)
+	(label "STEPPER_VG"
+		(at 247.65 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fa890d64-3e03-4098-a226-3336c35c7fb3")
+	)
 	(global_label "15V"
 		(shape input)
 		(at 224.79 105.41 180)
@@ -10513,6 +10529,50 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "12V"
+		(shape input)
+		(at 180.34 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "38512c95-bc49-4a36-aa3e-c4e5add25467")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 186.8328 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "STEPPER_P"
+		(shape input)
+		(at 255.27 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3d36502f-a2f2-48c7-a216-295d6b889af4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 268.7779 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -10891,28 +10951,6 @@
 			)
 		)
 	)
-	(global_label "12V"
-		(shape input)
-		(at 180.34 106.68 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c9c62a5c-3631-4230-a4fb-12f08c20373e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.34 100.1872 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MOTOR_P"
 		(shape input)
 		(at 128.27 77.47 180)
@@ -10992,6 +11030,28 @@
 		(uuid "d7a26681-605c-4d72-a93c-dd9c482eae6a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 45.72 120.5072 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "12V"
+		(shape input)
+		(at 255.27 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f9c17113-a86a-490d-b17b-0e4f97afebfe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 261.7628 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12943,10 +13003,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8cdd8e8d-7d17-4f4f-9160-6aaef2c89050")
 		(property "Reference" "C2"
-			(at 187.96 101.6 90)
+			(at 187.706 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12954,7 +13013,7 @@
 			)
 		)
 		(property "Value" "100 μF"
-			(at 187.96 104.14 90)
+			(at 188.468 113.284 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15122,6 +15181,82 @@
 			(project "Hand_System_Rev_1"
 				(path "/561f6b17-6c60-4192-990d-3a71dfc69574"
 					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRF6623")
+		(at 252.73 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9b4d984-1097-42bc-9006-df7364ee694c")
+		(property "Reference" "Q2"
+			(at 259.08 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRF6623"
+			(at 259.08 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DirectFET:DirectFET_ST"
+			(at 257.81 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/irf6623pbf.pdf?fileId=5546d462533600a4015355e8aa811a2d"
+			(at 257.81 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "55A Id, 20V Vds, 5.7mOhm Rds, N-Channel MOSFET, DirectFET ST"
+			(at 252.73 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dd3cc388-1712-49e5-a56d-5a25e8e18aa9")
+		)
+		(pin "1"
+			(uuid "93075ced-9fa0-4368-8938-5556bec832ae")
+		)
+		(pin "3"
+			(uuid "ecc58229-efc8-44a0-aa74-b6b637a41440")
+		)
+		(instances
+			(project "Hand_System_Rev_1"
+				(path "/561f6b17-6c60-4192-990d-3a71dfc69574"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
