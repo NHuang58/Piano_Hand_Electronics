@@ -3599,10 +3599,6 @@
 		(uuid "9fa65549-93ae-4bbb-9e4e-f206e93e34ae")
 	)
 	(no_connect
-		(at 66.04 86.36)
-		(uuid "06721d9a-ce00-487c-b2c3-ee39b4511146")
-	)
-	(no_connect
 		(at 165.1 124.46)
 		(uuid "113a452e-9b92-48d1-8dcc-fbbbe6ffbb94")
 	)
@@ -3615,10 +3611,6 @@
 		(uuid "22e4f9e1-be3d-4121-9b65-6d4e2e708544")
 	)
 	(no_connect
-		(at 35.56 71.12)
-		(uuid "276a0fa1-6ce4-4af0-aabd-fb3f8dc58a31")
-	)
-	(no_connect
 		(at 165.1 121.92)
 		(uuid "363327cc-0f2d-4f42-8a9c-ba37817ad4b3")
 	)
@@ -3627,16 +3619,8 @@
 		(uuid "411e0a22-8161-4fc4-aa13-a9666c3f35b7")
 	)
 	(no_connect
-		(at 35.56 81.28)
-		(uuid "4f281e69-9eea-441e-ba0a-33d695e1df37")
-	)
-	(no_connect
 		(at 35.56 91.44)
 		(uuid "68e02b80-9804-44ae-b651-c54195ad4648")
-	)
-	(no_connect
-		(at 35.56 78.74)
-		(uuid "6a424a5e-accf-4379-973f-43cc111104d3")
 	)
 	(no_connect
 		(at 35.56 43.18)
@@ -3655,32 +3639,12 @@
 		(uuid "82c2c810-1d59-4589-a143-904a847ff883")
 	)
 	(no_connect
-		(at 33.02 50.8)
-		(uuid "a4a67b33-1e8e-4c5b-9698-7ada56287148")
-	)
-	(no_connect
 		(at 66.04 91.44)
 		(uuid "a5929806-7289-4e27-8044-7d77c5fe0321")
 	)
 	(no_connect
-		(at 66.04 58.42)
-		(uuid "b0fb7232-8139-44d9-a742-3362d167ef10")
-	)
-	(no_connect
-		(at 35.56 76.2)
-		(uuid "b1d7bfea-535a-4181-9b4d-303019430196")
-	)
-	(no_connect
 		(at 66.04 76.2)
 		(uuid "db4813fa-01b2-4278-a8c8-0053bf558f8a")
-	)
-	(no_connect
-		(at 66.04 55.88)
-		(uuid "e93e635e-cb6e-49eb-a878-dde291e2837a")
-	)
-	(no_connect
-		(at 33.02 48.26)
-		(uuid "ed55b69d-6acc-4196-a6c6-1f5263474d7a")
 	)
 	(no_connect
 		(at 66.04 88.9)
@@ -3798,16 +3762,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 66.04) (xy 66.04 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31e57920-9a51-46a9-a483-d806bff8a81a")
-	)
-	(wire
-		(pts
 			(xy 200.66 147.32) (xy 200.66 144.78)
 		)
 		(stroke
@@ -3898,16 +3852,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 68.58) (xy 66.04 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79346bb3-97e1-4895-8524-c119799373ad")
-	)
-	(wire
-		(pts
 			(xy 36.83 134.62) (xy 36.83 132.08)
 		)
 		(stroke
@@ -3945,16 +3889,6 @@
 			(type default)
 		)
 		(uuid "93a841e2-082f-42e4-be8a-aa88772027c7")
-	)
-	(wire
-		(pts
-			(xy 68.58 71.12) (xy 66.04 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9561accb-abed-4617-bd9e-6570e361b420")
 	)
 	(wire
 		(pts
@@ -4018,16 +3952,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 73.66) (xy 66.04 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f44b494-bcf9-4ff6-a197-76e2105d66b9")
-	)
-	(wire
-		(pts
 			(xy 185.42 46.99) (xy 185.42 45.72)
 		)
 		(stroke
@@ -4065,6 +3989,16 @@
 			(type default)
 		)
 		(uuid "aaf37084-42fe-4230-835f-6ae9205eed27")
+	)
+	(wire
+		(pts
+			(xy 260.35 24.13) (xy 256.54 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7080689-2812-420b-b007-d5526b4d7868")
 	)
 	(wire
 		(pts
@@ -10210,7 +10144,7 @@
 		(uuid "36ccd745-b242-40c6-a992-3e40080bff00")
 	)
 	(label "DT"
-		(at 35.56 86.36 180)
+		(at 35.56 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10239,7 +10173,7 @@
 		)
 		(uuid "490e7c15-9e65-4986-86f2-4f4e8d03aae1")
 	)
-	(label "STEPPER_VG"
+	(label "STP_VG"
 		(at 35.56 68.58 180)
 		(effects
 			(font
@@ -10250,17 +10184,17 @@
 		(uuid "4e743be2-2d83-40c9-9baf-863f0cdffd7b")
 	)
 	(label "RING_2"
-		(at 68.58 71.12 0)
+		(at 35.56 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "56075c2e-c607-462b-933b-e1fd9102274d")
 	)
 	(label "PINKIE_1"
-		(at 35.56 63.5 180)
+		(at 35.56 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10290,12 +10224,12 @@
 		(uuid "6dcfdcd1-009f-47e0-aed2-fcf29adc1c82")
 	)
 	(label "MIDDLE_2"
-		(at 68.58 68.58 0)
+		(at 35.56 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "7849d874-04fa-4510-9295-5c8cfc62ddc8")
 	)
@@ -10310,12 +10244,12 @@
 		(uuid "7968cd67-8488-47d9-8d28-0f93d14f0fd7")
 	)
 	(label "PINKIE_2"
-		(at 68.58 73.66 0)
+		(at 35.56 55.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "7b01428b-03eb-4cc7-9718-a8a84caef493")
 	)
@@ -10370,7 +10304,7 @@
 		(uuid "a1d36636-0838-46a0-b34e-764f2930a8a5")
 	)
 	(label "SERVO_VG"
-		(at 248.92 31.75 180)
+		(at 241.3 36.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10380,7 +10314,7 @@
 		(uuid "a41ce2af-4cc6-4276-8504-089ac102cc8d")
 	)
 	(label "CW"
-		(at 35.56 88.9 180)
+		(at 35.56 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10390,12 +10324,12 @@
 		(uuid "aa7d9b7a-e998-440d-b974-9f01c7df5b12")
 	)
 	(label "THUMB_1"
-		(at 66.04 78.74 0)
+		(at 33.02 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "ac39ffcf-e700-4c86-a4c3-1375fecfce95")
 	)
@@ -10420,27 +10354,27 @@
 		(uuid "b8ebc122-42c7-4d39-ae14-66b65cad18f6")
 	)
 	(label "INDEX_1"
-		(at 35.56 55.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c70020e5-dc34-4cee-b7b9-05040d953d7e")
-	)
-	(label "THUMB_2"
-		(at 66.04 81.28 0)
+		(at 66.04 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
+		(uuid "c70020e5-dc34-4cee-b7b9-05040d953d7e")
+	)
+	(label "THUMB_2"
+		(at 33.02 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
 		(uuid "d133072e-ca81-4d23-a446-23e9e9525990")
 	)
 	(label "INDEX_2"
-		(at 68.58 66.04 0)
+		(at 66.04 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10450,17 +10384,17 @@
 		(uuid "eccce494-a172-4702-ad1c-068f81aa24ca")
 	)
 	(label "SERVO_VG"
-		(at 35.56 66.04 180)
+		(at 66.04 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "ed286923-7525-46e9-8167-cd879d734de2")
 	)
 	(label "MIDDLE_1"
-		(at 35.56 58.42 180)
+		(at 35.56 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10470,7 +10404,7 @@
 		(uuid "ef868b9e-8d59-434d-8f8a-b0659b47c9fd")
 	)
 	(label "RING_1"
-		(at 35.56 60.96 180)
+		(at 35.56 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10479,13 +10413,13 @@
 		)
 		(uuid "f788ad1a-a077-4f67-86bc-ad4c33b6c9bd")
 	)
-	(label "STEPPER_VG"
-		(at 247.65 48.26 180)
+	(label "STP_VG"
+		(at 240.03 53.34 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "fa890d64-3e03-4098-a226-3336c35c7fb3")
 	)
@@ -10533,7 +10467,7 @@
 			)
 		)
 	)
-	(global_label "12V"
+	(global_label "STP_P"
 		(shape input)
 		(at 180.34 102.87 0)
 		(fields_autoplaced yes)
@@ -10545,7 +10479,7 @@
 		)
 		(uuid "38512c95-bc49-4a36-aa3e-c4e5add25467")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.8328 102.87 0)
+			(at 189.0099 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10555,9 +10489,9 @@
 			)
 		)
 	)
-	(global_label "STEPPER_P"
+	(global_label "STP_P"
 		(shape input)
-		(at 255.27 53.34 0)
+		(at 262.89 58.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10567,7 +10501,7 @@
 		)
 		(uuid "3d36502f-a2f2-48c7-a216-295d6b889af4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 268.7779 53.34 0)
+			(at 271.5599 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10601,7 +10535,7 @@
 	)
 	(global_label "MOTOR_P"
 		(shape input)
-		(at 256.54 36.83 0)
+		(at 264.16 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10611,7 +10545,7 @@
 		)
 		(uuid "4fd14f14-c012-472d-9936-a5a2d3328536")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 268.1128 36.83 0)
+			(at 275.7328 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10645,7 +10579,7 @@
 	)
 	(global_label "7.2V"
 		(shape input)
-		(at 256.54 26.67 0)
+		(at 260.35 24.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10655,7 +10589,7 @@
 		)
 		(uuid "6193bdc5-2006-4194-a086-c81a213ca650")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 263.6376 26.67 0)
+			(at 267.4476 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10951,6 +10885,28 @@
 			)
 		)
 	)
+	(global_label "STP_P"
+		(shape input)
+		(at 250.19 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bbff482d-d047-4d2c-8671-75262946d3bd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 241.5201 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MOTOR_P"
 		(shape input)
 		(at 128.27 77.47 180)
@@ -11041,7 +10997,7 @@
 	)
 	(global_label "12V"
 		(shape input)
-		(at 255.27 43.18 0)
+		(at 262.89 48.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11051,7 +11007,7 @@
 		)
 		(uuid "f9c17113-a86a-490d-b17b-0e4f97afebfe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 261.7628 43.18 0)
+			(at 269.3828 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11204,6 +11160,75 @@
 			(project "Hand_System_Rev_1"
 				(path "/561f6b17-6c60-4192-990d-3a71dfc69574"
 					(reference "M3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 260.35 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "097ce697-6a0c-44b6-8a56-ca95dae98e2e")
+		(property "Reference" "R13"
+			(at 262.382 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 261.366 40.132 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 260.35 43.688 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 260.35 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 260.35 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "834280ab-5385-426d-b50a-4ba6208d063c")
+		)
+		(pin "1"
+			(uuid "25c9d66e-1774-4918-8d7e-bd430ece3584")
+		)
+		(instances
+			(project "Hand_System_Rev_1"
+				(path "/561f6b17-6c60-4192-990d-3a71dfc69574"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -11782,7 +11807,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 193.04 48.006 0)
 			(effects
 				(font
@@ -11828,6 +11853,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 259.08 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4409232e-fde4-49bb-9070-49df23a84413")
+		(property "Reference" "R16"
+			(at 261.112 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 260.096 56.642 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 259.08 60.198 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 259.08 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bff237f5-940b-4f4d-ab68-bada7f00679c")
+		)
+		(pin "1"
+			(uuid "e3a3ba8d-e3fe-4699-8f18-f00776e5f599")
+		)
+		(instances
+			(project "Hand_System_Rev_1"
+				(path "/561f6b17-6c60-4192-990d-3a71dfc69574"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Motor:Motor_Servo")
 		(at 193.04 66.04 0)
 		(unit 1)
@@ -11855,7 +11949,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 193.04 70.866 0)
 			(effects
 				(font
@@ -12779,17 +12873,85 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:IRF6623")
-		(at 254 31.75 0)
+		(lib_id "Device:R")
+		(at 259.08 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
+		(uuid "7110ea5b-87d3-47d1-9ae4-2de06c5d705b")
+		(property "Reference" "R14"
+			(at 260.858 50.546 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 256.54 45.974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 259.08 50.038 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 259.08 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dfee99ec-3f9b-4595-a4ca-dcd91eca9360")
+		)
+		(pin "1"
+			(uuid "2ae754ff-1342-4e53-ab26-82b2d755a435")
+		)
+		(instances
+			(project "Hand_System_Rev_1"
+				(path "/561f6b17-6c60-4192-990d-3a71dfc69574"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRF6623")
+		(at 254 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "73a4747a-13e9-40e3-bd2b-a9feb5495226")
 		(property "Reference" "Q1"
-			(at 260.35 30.4799 0)
+			(at 260.35 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12798,7 +12960,7 @@
 			)
 		)
 		(property "Value" "IRF6623"
-			(at 260.35 33.0199 0)
+			(at 264.16 35.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12807,7 +12969,7 @@
 			)
 		)
 		(property "Footprint" "Package_DirectFET:DirectFET_ST"
-			(at 259.08 33.655 0)
+			(at 259.08 38.735 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12818,7 +12980,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.infineon.com/dgdl/irf6623pbf.pdf?fileId=5546d462533600a4015355e8aa811a2d"
-			(at 259.08 35.56 0)
+			(at 259.08 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12828,7 +12990,7 @@
 			)
 		)
 		(property "Description" "55A Id, 20V Vds, 5.7mOhm Rds, N-Channel MOSFET, DirectFET ST"
-			(at 254 31.75 0)
+			(at 254 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12990,6 +13152,75 @@
 			(project ""
 				(path "/561f6b17-6c60-4192-990d-3a71dfc69574"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 243.84 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "89840c96-82bd-441a-b823-76f9a889aca1")
+		(property "Reference" "R15"
+			(at 244.602 56.642 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 246.38 50.546 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 243.84 55.118 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 243.84 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "00bfe692-bb8f-4708-90c0-6b18d7a241ea")
+		)
+		(pin "1"
+			(uuid "22c65241-ba2e-48f7-93d7-5f10c0696312")
+		)
+		(instances
+			(project "Hand_System_Rev_1"
+				(path "/561f6b17-6c60-4192-990d-3a71dfc69574"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -13656,6 +13887,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 256.54 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba83fbf6-02a1-4532-8a74-467bfacf4bf9")
+		(property "Reference" "R1"
+			(at 258.826 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 259.334 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 254.762 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 256.54 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "48369cff-dc11-4558-be6a-c8fd116b4e44")
+		)
+		(pin "1"
+			(uuid "83cdbdca-6645-46d5-9e8b-7cfb14e864af")
+		)
+		(instances
+			(project ""
+				(path "/561f6b17-6c60-4192-990d-3a71dfc69574"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 248.92 105.41 270)
 		(unit 1)
@@ -13940,6 +14240,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 245.11 36.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2872c19-92f9-4c3f-a91d-20e460a94c53")
+		(property "Reference" "R2"
+			(at 245.872 40.132 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 247.65 34.036 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 245.11 38.608 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 245.11 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bcf9c114-c4ff-4292-8ca3-ed1a14455dfb")
+		)
+		(pin "1"
+			(uuid "d31bc358-8a0b-4e91-83fb-c6927c145005")
+		)
+		(instances
+			(project "Hand_System_Rev_1"
+				(path "/561f6b17-6c60-4192-990d-3a71dfc69574"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 114.3 74.93 270)
 		(unit 1)
@@ -14108,7 +14477,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 193.04 81.026 0)
 			(effects
 				(font
@@ -14148,6 +14517,73 @@
 			(project "Hand_System_Rev_1"
 				(path "/561f6b17-6c60-4192-990d-3a71dfc69574"
 					(reference "M11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 250.19 114.3 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d788b203-6adc-4c3c-aed7-d128c68ebcbd")
+		(property "Reference" "#FLG03"
+			(at 252.095 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 254 114.2999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 250.19 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 250.19 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2468475b-b29f-4ace-aab6-a8b615a62d7a")
+		)
+		(instances
+			(project "Hand_System_Rev_1"
+				(path "/561f6b17-6c60-4192-990d-3a71dfc69574"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -14673,7 +15109,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 193.04 59.436 0)
 			(effects
 				(font
@@ -15188,16 +15624,15 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:IRF6623")
-		(at 252.73 48.26 0)
+		(at 252.73 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f9b4d984-1097-42bc-9006-df7364ee694c")
 		(property "Reference" "Q2"
-			(at 259.08 46.9899 0)
+			(at 261.112 52.832 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15206,7 +15641,7 @@
 			)
 		)
 		(property "Value" "IRF6623"
-			(at 259.08 49.5299 0)
+			(at 265.938 52.324 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15215,7 +15650,7 @@
 			)
 		)
 		(property "Footprint" "Package_DirectFET:DirectFET_ST"
-			(at 257.81 50.165 0)
+			(at 257.81 55.245 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15226,7 +15661,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.infineon.com/dgdl/irf6623pbf.pdf?fileId=5546d462533600a4015355e8aa811a2d"
-			(at 257.81 52.07 0)
+			(at 257.81 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15236,7 +15671,7 @@
 			)
 		)
 		(property "Description" "55A Id, 20V Vds, 5.7mOhm Rds, N-Channel MOSFET, DirectFET ST"
-			(at 252.73 48.26 0)
+			(at 252.73 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
