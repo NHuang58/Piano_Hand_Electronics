@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.22,
-          "width": 0.76
+          "drill": 1.0,
+          "height": 1.6,
+          "width": 1.6
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,7 +58,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_edge_clearance|241173000|70756000|5c8e8bef-5c41-434b-bcce-c28215793342|c595d43c-b827-4980-afbf-574817720851",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -518,8 +523,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
-      "pos_files": "production/",
+      "plot": "gerber/",
+      "pos_files": "gerber/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -529,7 +534,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "production\\Hand_System_Rev_1.csv",
+    "bom_export_filename": "gerber\\Hand_System_Rev_1_bom.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -736,5 +741,7 @@
       "Root"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "REFERENCE": ""
+  }
 }
