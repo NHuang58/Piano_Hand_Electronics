@@ -1,0 +1,312 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "PCA9685" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at -17.78 35.56 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "PCA9685" (id 1) (at -17.78 -33.02 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "PCA9685:TSSOP28" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "NXP Semiconductors" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Description" "\n                        \n                            LED Driver 10000uA Supply Current Automotive 28-Pin TSSOP T/R\n                        \n" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "None" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Price" "None" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/PCA9685/NXP+Semiconductors/view-part/?ref=snap" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "PCA9685" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Availability" "Not in stock" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Check_prices" "https://www.snapeda.com/parts/PCA9685/NXP+Semiconductors/view-part/?ref=eda" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "PCA9685_0_0"
+      (polyline
+        (pts (xy -17.78 17.78) (xy 17.78 17.78)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 17.78 17.78) (xy 17.78 -30.48)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 17.78 -30.48) (xy -17.78 -30.48)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -17.78 -30.48) (xy -17.78 -25.4)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -17.78 -25.4) (xy -17.78 17.78)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -17.78 33.02) (xy 17.78 33.02)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -17.78 17.78) (xy -17.78 33.02)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 17.78 17.78) (xy 17.78 33.02)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -17.78 -25.4) (xy 17.78 -25.4)) (stroke (width 0.254))
+      )
+      (text "PCA9685" (at -5.08 30.48 0)
+        (effects (font (size 1.27 1.27)) (justify bottom left))
+      )
+      (text "16 Channel 12-Bit PWM" (at -12.7 27.94 0)
+        (effects (font (size 1.27 1.27)) (justify bottom left))
+      )
+      (text "VDD: 2.3-5.5V" (at -15.24 22.86 0)
+        (effects (font (size 1.27 1.27)) (justify bottom left))
+      )
+      (text "IO: 5V Safe" (at 5.08 22.86 0)
+        (effects (font (size 1.27 1.27)) (justify bottom left))
+      )
+      (text "Output: 25mA Each/400mA Total" (at -15.24 20.32 0)
+        (effects (font (size 1.27 1.27)) (justify bottom left))
+      )
+      (text "GND EXTCLK when not in use!" (at -15.24 -27.94 0)
+        (effects (font (size 1.27 1.27)) (justify bottom left))
+      )
+      (text "I2C Address: 1[A5..A0][R/W]" (at -13.97 25.4 0)
+        (effects (font (size 1.27 1.27)) (justify bottom left))
+      )
+      (pin output line (at 20.32 15.24 180.0) (length 2.54)
+        (name "PWM0"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 20.32 12.7 180.0) (length 2.54)
+        (name "PWM1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 20.32 10.16 180.0) (length 2.54)
+        (name "PWM2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 20.32 7.62 180.0) (length 2.54)
+        (name "PWM3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 20.32 5.08 180.0) (length 2.54)
+        (name "PWM4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 20.32 2.54 180.0) (length 2.54)
+        (name "PWM5"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 20.32 0.0 180.0) (length 2.54)
+        (name "PWM6"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "12"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 20.32 -2.54 180.0) (length 2.54)
+        (name "PWM7"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "13"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 20.32 -5.08 180.0) (length 2.54)
+        (name "PWM8"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "15"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 20.32 -7.62 180.0) (length 2.54)
+        (name "PWM9"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "16"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 20.32 -10.16 180.0) (length 2.54)
+        (name "PWM10"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "17"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 20.32 -12.7 180.0) (length 2.54)
+        (name "PWM11"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "18"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 20.32 -15.24 180.0) (length 2.54)
+        (name "PWM12"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "19"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 20.32 -17.78 180.0) (length 2.54)
+        (name "PWM13"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "20"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 20.32 -20.32 180.0) (length 2.54)
+        (name "PWM14"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "21"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 20.32 -22.86 180.0) (length 2.54)
+        (name "PWM15"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "22"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -20.32 -22.86 0) (length 2.54)
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "14"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 10.16 0) (length 2.54)
+        (name "SDA"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "27"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 7.62 0) (length 2.54)
+        (name "SCL"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "26"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -20.32 2.54 0) (length 2.54)
+        (name "#OE"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "23"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -20.32 -2.54 0) (length 2.54)
+        (name "EXTCLK"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "25"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 -5.08 0) (length 2.54)
+        (name "A0"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 -7.62 0) (length 2.54)
+        (name "A1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 -10.16 0) (length 2.54)
+        (name "A2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 -12.7 0) (length 2.54)
+        (name "A3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 -15.24 0) (length 2.54)
+        (name "A4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 -17.78 0) (length 2.54)
+        (name "A5"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "24"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -20.32 15.24 0) (length 2.54)
+        (name "VDD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "28"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
